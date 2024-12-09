@@ -1,46 +1,40 @@
 {
-  "name": "golf-game-tracker",
+  "name": "stackblitz-nativescript-react",
   "main": "src/app.ts",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@nativescript/camera": "^5.0.12",
     "@nativescript/core": "~8.8.0",
-    "@nativescript/firebase-analytics": "^3.2.0",
     "@nativescript/firebase-auth": "^3.2.0",
     "@nativescript/firebase-core": "^3.2.0",
-    "@nativescript/firebase-database": "^3.2.0",
+    "@nativescript/firebase-firestore": "^3.2.0",
     "@nativescript/firebase-functions": "^3.2.0",
-    "@types/react": ">=16.8",
-    "immer": ">=9.0.6",
-    "nativescript-barcodescanner": "^4.1.0",
-    "nativescript-qr-generator": "^3.0.0",
+    "qrcode": "^1.5.3",
     "react": "^18.2.0",
     "react-nativescript": "^5.0.0",
     "react-nativescript-navigation": "^5.0.0",
-    "zustand": "^4.5.0"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@nativescript/android": "8.8.0",
     "@nativescript/ios": "8.8.0",
     "@nativescript/preview-cli": "^1.0.14",
-    "@nativescript/stackblitz": "^0.0.8",
+    "@nativescript/stackblitz": "0.0.8",
     "@nativescript/tailwind": "^2.1.0",
+    "@nativescript/types": "~8.8.0",
     "@nativescript/types-minimal": "~8.8.0",
     "@nativescript/webpack": "~5.0.8",
-    "@storybook/react": "^7.6.7",
-    "@testing-library/react": "^14.1.2",
+    "@types/qrcode": "^1.5.5",
     "@types/react": "npm:types-react-without-jsx-intrinsics@^18.0.17",
-    "jest": "^29.7.0",
+    "@types/uuid": "^9.0.7",
     "tailwindcss": "~3.4.0",
     "typescript": "~5.4.0"
   },
   "scripts": {
-    "android": "ns run android",
-    "ios": "ns run ios",
-    "preview": "ns preview",
     "type-check": "tsc --noEmit",
-    "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "setup": "setup-nativescript-stackblitz",
+    "preview": "ns preview",
+    "dev": "setup-nativescript-stackblitz && ns preview"
   }
 }
