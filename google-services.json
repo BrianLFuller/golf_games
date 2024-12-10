@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "771272895445",
+    "project_id": "golf-games-f0dfd",
+    "storage_bucket": "golf-games-f0dfd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771272895445:android:2e2cc7fbd37f4eee98ab5c",
+        "android_client_info": {
+          "package_name": "com.golf.games"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKBm-lT_UisQjyNAZ_lZLHA-S6vxk4NDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771272895445:android:72cf0b178885f03c98ab5c",
+        "android_client_info": {
+          "package_name": "com.golfgames.golfgames"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKBm-lT_UisQjyNAZ_lZLHA-S6vxk4NDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
